@@ -4,8 +4,8 @@ const message = document.getElementById("message");
 const gif = document.getElementById("gif");
 
 noButton.addEventListener("mouseover", () => {
-    let x = Math.random() * (window.innerWidth - 100);
-    let y = Math.random() * (window.innerHeight - 50);
+    let x = Math.random() * (window.innerWidth - 150);
+    let y = Math.random() * (window.innerHeight - 10);
     noButton.style.left = `${x}px`;
     noButton.style.top = `${y}px`;
     gif.style.display = "none";
